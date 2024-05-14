@@ -8,17 +8,52 @@
     <title>Numeros</title>
 </head>
 <body>
-        <div class="centro">
+        <div class="centro1">
             <h1>Valores:</h1>
+            <label for="num1">Digite um numero</label> <br>
             <input class="num1" id="numero" type="number"> <br>
+            <label for="num2">Digite outro numero</label> <br>
             <input class="num2" id="numero2" type="number"> <br>
             
                 <button class="botao" onclick="numeros()"> Calcular </button>
                 <br>
 
-                <div class="resultados" id="resultados">
+                <div class="resultados">
                     <h1>Resultados:</h1>
+                    <p class="results" id="resultados"></p>
                 </div>
+        </div>
+
+        <div class="centro2">
+            <h1>Salarios:</h1>
+            <label for="nome"> Digite seu nome: </label> <br>
+            <input class="nome" id="nome" type="text"> <br>
+            <label for="salarioBruto"> Digite seu salario bruto: </label> <br>
+            <input class="salarioBruto" id="salarioBruto" type="number"> <br>
+
+            <button class="botao" onclick="salarios()"> Calcular </button>
+
+            <div class="resultados2">
+                <h1>Informações dadas:</h1>
+                <p class="results2" id="resultados2"></p>
+            </div>
+        </div>
+
+        <div class="centro3">
+            <h1>Descontos:</h1>
+            <label for="salario"> Digite seu salario: </label> <br>
+            <input class="salario" id="salario" type="number"> <br>
+
+            <button class="botao" onclick="descontos()"> Calcular </button>
+
+            <div class="resultados3">
+                <h1>Descontos aplicados:</h1>
+                <p class="results3" id="resultados3"></p>
+            </div>
+        </div>
+
+        <div>
+            <img class="macaco" src="https://imagensemoldes.com.br/wp-content/uploads/2020/05/Imagem-Macaco-PNG.png" alt="macaco">
         </div>
 
 </body>

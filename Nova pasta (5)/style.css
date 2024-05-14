@@ -1,3 +1,7 @@
+label{
+    font-size: 20px;
+}
+
 .num1{
     height: 30px;
     width: 140px;
@@ -36,11 +40,67 @@ body{
     background-color: bisque;
 }
 
-.centro{
+.centro1{
     text-align: center;
     margin-top: 300px;
 }
 
 .flex{
     display: flex;
+}
+
+.resultados{
+    height: 211px;
+}
+
+.results{
+    font-size: 20px;
+}
+
+.centro2{
+    text-align: center;
+}
+
+.nome{
+    height: 30px;
+    width: 140px;
+    background-color: rgb(160, 103, 49);
+    border-radius: 20px;
+    border: 2px solid black;
+    color: white;
+}
+
+.salarioBruto{
+    height: 30px;
+    width: 140px;
+    background-color: rgb(160, 103, 49);
+    border-radius: 20px;
+    border: 2px solid black;
+    color: white;
+    margin-top: 10px;
+}
+
+.resultados2{
+    height: 179px;
+}
+
+.centro3{
+    text-align: center;
+}
+
+.salario{
+    height: 30px;
+    width: 140px;
+    background-color: rgb(160, 103, 49);
+    border-radius: 20px;
+    border: 2px solid black;
+    color: white;
+}
+
+.resultados3{
+    height: 100px;
+}
+
+.macaco{
+    width: 100%;
 }
